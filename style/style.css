@@ -103,7 +103,8 @@ h1{
 }
 .btn{
     color: white;
-    
+    width: 224px;
+    height: 54px;
     padding: 10px;
     border:none;
     border-radius: 50px;
@@ -112,6 +113,8 @@ h1{
 }
 .btn-download-App{
     color: white;
+    width: 224px;
+    height: 54px;
     border: 1px solid gray;
     padding: 10px;
     margin-left: 5px;
@@ -250,6 +253,31 @@ h1{
     margin-bottom: 10px;
 }
 
+/* secttion two start heare */
+
+.section-two{
+    width: 80%;
+    height: 371px;
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 18px;
+    background: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.section-two .run-an-extra{
+
+    font-size: 48px;
+
+}
+.section-two .run-img{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+}
+
 
 @media screen and (max-width:576px) {
 
@@ -329,6 +357,28 @@ h1{
             flex-direction: column;
             justify-content: center;
             align-items: center;
+        }
+        .section-two{
+
+            margin-top: 1050px;
+            width: 353px;
+            height: 600px;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 31px;
+        }
+        .btn{
+            color: white;
+            width: 287px;
+            height: 54px;
+           
+        
+        }
+        .section-two .run-img{
+            width: 287px;
+            height: 170px;
+            border-radius: 18px;
         }
 
     }
