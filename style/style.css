@@ -1,0 +1,350 @@
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #000000;
+}
+.common-color{
+    background-color: #E6533C;
+    
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000f1;
+}
+.nabver{
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+.menue{
+  
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 4px;
+    margin-right: 10%;
+    align-items: center;
+}
+.menue a{
+    text-decoration: none;
+    color: white;
+    
+   
+
+
+}
+.Home{
+    /* background-color:#ff00008f; */
+    padding: 5px 7px;
+    border-radius: 50px;
+   
+    
+
+}
+
+.heading-title{
+    font-size: 30px;
+    color: #E6533C;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 10%;
+    
+
+}
+
+.banner{
+    width: 80%;
+    
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.hero-title{
+    font-size: 78px;
+    font-weight: 900px;
+}
+.banner .dhape{
+    color: #E6533C;
+
+}
+h1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size:45px ;
+
+}
+.banner p{
+    color: gray;
+    margin-top: 20px;
+    position: relative;
+
+
+}
+.btn{
+    color: white;
+    
+    padding: 10px;
+    border:none;
+    border-radius: 50px;
+    margin-top:20px;
+
+}
+.btn-download-App{
+    color: white;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 50px;
+    margin-top:20px;
+    background-color: black;
+}
+
+
+.right-content{
+    width: 350px;
+   height: 483px;
+ 
+    /* border: 1px solid red;
+    background-image: url(/img/Images\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+}
+.banner-img{
+    width: 100%;
+    height: 100%;
+}
+
+.counting-350{
+    background-color: #808080a9;
+    width: 190px;
+    height: 98px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 360px;
+    bottom: 30px;
+}
+
+.right-content .counting-p {
+    color: gray;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.right-content .charcle{
+    background-color: #ff00008f;
+    width: 20px;
+    height:20px;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.counting-500{
+    background-color: #808080a9;
+    width: 170px;
+    height: 98px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    right: 100px;
+    top: 230px;
+    text-align: center;
+   
+}
+.count{
+    font-size: 40px;
+    border: 3px solid #E6533C;
+    font-weight: bold;
+}
+
+.icon-bar i{
+    color: white;
+    margin-right: 20px;
+}
+
+.icon-bar{
+    display: none;
+}
+
+
+
+
+/* main section start here */
+
+.change-your-habit{
+    width: 80%;
+    height: 450px;
+    
+    margin:100px auto;
+    
+}
+.change-your-habit-title{
+    text-align: center;
+    
+}
+.Habit-title{
+    font-size: 45px;
+    font-weight: 900px;
+    color: white;
+}
+
+.Habit-text{
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 20px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.Habit-img-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 58px;
+    gap: 40px;
+}
+.Habit-img-box .child-img{
+    width: 230px;
+    height: 270px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.round-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    border: 3px solid #8080808f;
+}
+.contition-name{
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width:576px) {
+
+    header{
+        width: 393px;
+            height: 1024px;
+        .menue{
+            display: none;
+        }
+        .icon-bar{
+            display: block;
+        }
+
+        .banner{
+            
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+        .hero-title{
+            font-size: 45px;
+            font-weight: 900px;
+        }
+        .btn{
+            color: white;
+            width: 150px;
+            height: 54px;
+           
+        
+        }
+        .btn-download-App{
+            width: 150px;
+            height: 54px;
+      
+        }
+        .banner-img{
+            width: 280px;
+            height: 100%;
+        }
+        .counting-350{
+            width: 140px;
+            height: 72px;
+            background-color: #3030308A;
+            position: absolute;
+            right: 250px;
+            top: 700px;
+        }
+
+        .counting-500{
+            width: 120px;
+            height: 72px;
+        
+            background-color: #3030308A;
+            position: absolute;
+            right: 100px;
+            top: 550px;
+        }
+        .counting-500 .counting-p{
+            font-size: 10px;
+        }
+        .counting-350 .counting-p{
+            font-size: 10px;
+        }
+
+        .counting-500 .count{
+            font-size: 20px;
+        }
+       
+    }
+
+    main{
+        .Habit-title{
+            font-size: 36px;
+        }
+        .Habit-img-box{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+    }
+    
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    
+      header{
+       
+       
+      }
+       
+        
+    
+    
+}
