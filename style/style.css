@@ -408,7 +408,7 @@ td{
     width: 350px;
     height: 240px;
     border-radius: 10px;
-    background-image: url(/img/trainer1.png);
+    background-image: url(../img/trainer1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -419,7 +419,7 @@ td{
     width: 350px;
     height: 240px;
     border-radius: 10px;
-    background-image: url(/img/trainer2.png);
+    background-image: url(../img/trainer2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -430,7 +430,7 @@ td{
     width: 350px;
     height: 240px;
     border-radius: 10px;
-    background-image: url(/img/trainer3.png);
+    background-image: url(../img/trainer3.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -441,7 +441,7 @@ td{
     width: 350px;
     height: 240px;
     border-radius: 10px;
-    background-image: url(/img/trainer4.png);
+    background-image: url(../img/trainer4.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -452,7 +452,7 @@ td{
     width: 350px;
     height: 240px;
     border-radius: 10px;
-    background-image: url(/img/trainer5.png);
+    background-image: url(../img/trainer5.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -463,7 +463,7 @@ td{
     width: 350px;
     height: 240px;
     border-radius: 10px;
-    background-image: url(/img/trainer6.png);
+    background-image: url(../img/trainer6.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
