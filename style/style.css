@@ -166,13 +166,20 @@ h1{
     font-size: 15px;
 }
 .right-content .charcle{
-    background-color: #ff00008f;
-    width: 20px;
-    height:20px;
+    background-color: #ff0000d3;
+    width: 30px;
+    height:30px;
     border-radius: 100%;
     margin-top: 10px;
     margin-right: 10px;
 }
+.right-content .icon{
+    padding: 6px 10px;
+    border-radius: 50%;
+    background-color: red;
+    display: none;
+}
+
 .counting-500{
     background-color: #808080a9;
     width: 170px;
@@ -578,6 +585,17 @@ footer .hr{
             position: absolute;
             right: 250px;
             top: 700px;
+        }
+        .right-content .icon{
+            padding: 4px 8px;
+            font-size: 16px;
+            margin-right: 5px;
+            border-radius: 50%;
+            background-color: red;
+            display: block;
+        }
+        .right-content .charcle{
+            display: none;
         }
 
         .counting-500{
